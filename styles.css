@@ -4,37 +4,46 @@ h1 {
     text-align: center;
 }
 main {
-    max-width: 50rem;
+    max-width: 70%;
     margin: 0 auto;
 }
-.pagina{
-    right: 0px ;
+.paginaactual{
+    max-width: 70%;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
     background-color: rgb(63, 63, 109);
+    color: cornsilk;
+}
+.dreta{
+    align-content: flex-end;
 }
 .texto{
     background-color: crimson;
     padding: 2em;
     margin: 2em;
     font-size: x-large;
-    
 }
 .opciones{
     display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
     background-color: black;
     font-size: 96px;
     font-family: 'Courier New', Courier, monospace;
     color: silver;
     
 }
-.blau{
-    background-color: rgb(86, 172, 222);
-}
-.verd{
-    background-color: rgb(69, 172, 108);
-}
-.op1{
+#op1{
     font-size: x-large;
 }
-.op2{
+#op2{
+    font-size: x-large;
+}
+#op3{
+    font-size: x-large;
+}
+#op4{
     font-size: x-large;
 }
