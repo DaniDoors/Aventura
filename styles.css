@@ -1,13 +1,18 @@
+
 h1 {
     background-color: darkcyan;
     font-size: 50px;
     text-align: center;
 }
 main {
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
 }
+body {
+    background-image: url(fondolibros.jpg);
+}
 .paginaactual{
+    text-align: end;
     max-width: 70%;
     margin: 0 auto;
     padding-left: 2em;
@@ -15,11 +20,27 @@ main {
     background-color: rgb(63, 63, 109);
     color: cornsilk;
 }
-.dreta{
-    align-content: flex-end;
+#nombre{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: rgb(38, 153, 115);
+    color: cornsilk;
+}
+#camino{
+    max-width: 70%;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: rgb(38, 153, 115);
+    color: cornsilk;
+}
+.central{
+    display: flex;
 }
 .texto{
-    background-color: crimson;
+    background-image: url(fondopagina.jpg) ;
     padding: 2em;
     margin: 2em;
     font-size: x-large;
